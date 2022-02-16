@@ -6,7 +6,10 @@
 
 <h4>Benifites of JsonPowerDB</h4>
 <p>1. JsonPowerDB is a Deeloper Friendly API srvices.<br>
-   2. JsonPowerDB is Light Weight, High Performance, Simple to use.
+   2. JsonPowerDB is Light Weight, High Performance.<br>
+   3. JsonPowerDB is Simple To use.<br>
+   4. JsonPowerDB is Human Readable.<br>
+   5. JsonPowerDB is Easy and fast to develop database applications without using any server side programming.
 </p>
 
- 
+
