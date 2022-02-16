@@ -1,5 +1,5 @@
 # JsonPowerDB_Form
-<h1>Vertical (basic) form</h1>
+<h2>Vertical (basic) form</h2>
 
 <h3>Description</h3>
 <p>I have created a form where a user can assign their Employee Id, Employee Name and their corresponding E-mail Address to the database. Where I have created one HTML file and attached javascript to it.</p>
@@ -16,69 +16,9 @@
 <h4>The Code I have written to make this form :</h4>
 
 
-<p><!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <h2>Vertical (basic) form</h2>
-        <form id="empForm" method="post">
-            <div class="form-group">
-                <span><label for="empId">Employee ID:</label> <label id="empIdMsg">
-                    </label></span>
-                <input type="text" class="form-control" name="empId" id="empId" placeholder="Enter Employee ID"
-                    required>
-            </div>
-            <div class="form-group">
-                <label for="empName">Employee Name:</label>
-                <input type="text" class="form-control" id="empName" placeholder="Enter Employee Name" name="empName">
-            </div>
-            <div class="form-group">
-                <label for="empEmail">Email:</label>
-                <input type="email" class="form-control" id="empEmail" placeholder="Enter Employee Email"
-                    name="empEmail">
-            </div>
-            <input type="button" class="btn btn-primary" id="empSave" value="Save" onclick="saveEmployee();">
-        </form>
-    </div>
+<p>
     <script>
-        $("#empId").focus();
-        function validateAndGetFormData() {
-            var empIdVar = $("#empId").val();
-            if (empIdVar === "") {
-                alert("Employee ID Required Value");
-                $("#empId").focus();
-                return "";
-            }
-            var empNameVar = $("#empName").val();
-            if (empNameVar === "") {
-                alert("Employee Name is Required Value");
-                $("#empName").focus();
-                return "";
-            }
-            var empEmailVar = $("#empEmail").val();
-            if (empEmailVar === "") {
-                alert("Employee Email is Required Value");
-                $("#empEmail").focus();
-                return "";
-            }
-            var jsonStrObj = {
-                empId: empIdVar,
-                empName: empNameVar,
-                empEmail: empEmailVar,
-            };
-            return JSON.stringify(jsonStrObj);
-        }
+     
         
         function createPUTRequest(connToken, jsonObj, dbName, relName) {
             var putRequest = "{\n"
