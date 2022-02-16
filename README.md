@@ -1,10 +1,10 @@
-# JsonPowerDB_Form
+
 <h2>Vertical (basic) form</h2>
 
 <h3>Description</h3>
 <p>I have created a form where a user can assign their Employee Id, Employee Name and their corresponding E-mail Address to the database. Where I have created one HTML file and attached javascript to it.</p>
 
-<h4>Benifits of JsonPowerDB</h4>
+<h3>Benifits of JsonPowerDB</h3>
 <p>1. JsonPowerDB is a Deeloper Friendly API srvices.<br>
    2. JsonPowerDB is Light Weight, High Performance.<br>
    3. JsonPowerDB is Simple To use.<br>
@@ -13,7 +13,7 @@
 </p>
 
 
-<h4>The Code I have written to make this form :</h4>
+<h3>This JPDB Code that I have written to make this form :</h3>
 
 
 <p>
