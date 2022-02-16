@@ -17,7 +17,7 @@
 
 
 <p>
-    <script>
+    
      
         
         function createPUTRequest(connToken, jsonObj, dbName, relName) {
@@ -68,7 +68,7 @@
             jQuery.ajaxSetup({ async: true });
             resetForm();
         }
-    </script>
+    
 </body>
 
 </html></p>
